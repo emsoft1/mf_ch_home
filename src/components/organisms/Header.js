@@ -3,11 +3,11 @@ import * as React from 'react';
 import {Text } from "../atoms/Text";
 import { Buttons } from "../atoms/Button";
 import Box from '@mui/material/Box';
-export const Header = ({  label }) => {
+export const Header = ({  label ,backcolor="lightblue"}) => {
 
   return (
-    <Box>
-    <Text label={label} >
+    <Box   >
+    <Text label={label } backcolor={backcolor}>
 
     </Text>
     </Box>

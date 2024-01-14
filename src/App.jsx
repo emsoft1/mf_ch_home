@@ -9,9 +9,9 @@ import {Footer} from "./components/organisms/Footer";
 import Box from '@mui/material/Box';
 const App = () => (
 <Box sx={{ flexGrow: 1 }}>
-<Header  label={"Miro"}/>
+<Header  label={"Miro"} backcolor="lightgreen"/>
 <HomePage />
-<Footer label={"footer label"}/>
+<Footer label={"footer label"} backcolor="lightpink"/>
 </Box>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
